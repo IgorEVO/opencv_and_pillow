@@ -56,15 +56,15 @@ def overleyImage(path_bg, path_fg, file_output):
 
 
 # Path to image in local directory
-dir_sky = 'C:/PYTHON/project_01/sky/'
+dir_sky = 'C:/PYTHON/project-01/sky/'
 file_sky = 'Sky HD.jpg'
 path_sky = os.path.join(dir_sky, file_sky)
 
-dir_fpv = 'C:/PYTHON/project_01/fpv/'
+dir_fpv = 'C:/PYTHON/project-01/fpv/'
 file_fpv = 'dron_ok.png'
 path_fpv = os.path.join(dir_fpv, file_fpv)
 
-dir_res = 'C:/PYTHON/project_01/result/'
+dir_res = 'C:/PYTHON/project-01/result/'
 file_res = 'drone coordinates.txt'
 
 if os.path.exists(dir_res):
