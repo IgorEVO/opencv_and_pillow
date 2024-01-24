@@ -49,7 +49,7 @@ def overley_image(path_bg, path_fg, file_output, scl_per_b, scl_per_t):
     resized_fpv = resized_image(fpv_pil, scale_percent)
 
     # Drone tilt angle range - "angle"
-    angle = random.randint(-15, 15)
+    angle = random.randint(-30, 30)
     rotate_fpv = resized_fpv.rotate(angle, expand=True)
 
     width_bg, height_bk = background_pil.size
